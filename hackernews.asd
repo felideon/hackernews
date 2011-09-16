@@ -9,7 +9,7 @@
                #:cl-ncurses)
   :components ((:file "package")
                (:file "ncurses")
-               (:file "user-settings.lisp")
-               (:file "utilities.lisp")
-               (:file "hn.lisp")))
+               (:file "user-settings")
+               (:file "utilities")
+               (:file "hn")))
 
