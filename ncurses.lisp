@@ -225,8 +225,3 @@
 	       (main page (cons ch text))) ;; printable characters
 	      (t (main page text))	    ;; anything else was clicked
 	      ))))
-
-;; launch the application here
-(let ((page (build-home-page #'hn-news-url)))
-  (build-screen page)
-  (main page))
