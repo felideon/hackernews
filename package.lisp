@@ -2,4 +2,3 @@
 
 (defpackage #:hackernews
   (:use #:cl #:cl-ncurses))
-
