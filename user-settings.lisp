@@ -1,3 +1,4 @@
+(in-package :hackernews)
 
 (defparameter *browser-cmd* "/usr/bin/lynx")
 

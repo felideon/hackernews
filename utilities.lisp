@@ -1,3 +1,4 @@
+(in-package :hackernews)
 
 (defun run-cmd (cmd &rest args)
   (sb-ext:run-program cmd args :input t :output t :wait t))
