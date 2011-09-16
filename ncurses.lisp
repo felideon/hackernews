@@ -1,12 +1,4 @@
-
-(declaim #+sbcl(sb-ext:muffle-conditions style-warning))
-
-(in-package :cl-ncurses)
-
-;; load other files
-(load "user-settings.lisp")
-(load "utilities.lisp")
-(load "hn.lisp")
+(in-package :hackernews)
 
 ;; initialize ncurses
 (initscr)

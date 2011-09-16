@@ -1,4 +1,3 @@
-
 ;; constants
 (defparameter *api-url* "http://api.ihackernews.com")
 (defparameter *front-page* "page")
